@@ -1,0 +1,4 @@
+sortingproject.MakeBubbleRight
+sortingproject.BubbleSort1
+sortingproject.BubbleSort
+sortingproject.PullingData
