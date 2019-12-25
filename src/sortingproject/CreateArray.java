@@ -1,7 +1,7 @@
 package sortingproject;
 import java.util.Scanner;
 abstract class CreateArrayForSorting{
-    protected int[] array;
+    private int[] array;
     protected int length;
     Scanner in;
     CreateArrayForSorting(){

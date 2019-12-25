@@ -8,7 +8,7 @@ class MakeBubbleRight extends CreateArrayForSorting{
     MakeBubbleRight(){
         super();
         super.createRandomArray();
-        arr = super.array;
+        arr = super.returnArray();
         flag = 0;
         temps = 0;
     }

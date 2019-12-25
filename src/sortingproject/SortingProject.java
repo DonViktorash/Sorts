@@ -17,7 +17,7 @@ import java.util.Scanner;
  */
 public class SortingProject {
     public static void main(String[] args) {
-        System.out.println("Hello Github!");
+       System.out.println("Hello Github!");
        Scanner in = new Scanner(System.in);
        int ins;
        System.out.println("Insert:");
@@ -31,6 +31,10 @@ public class SortingProject {
                System.out.println("Open");
                CocktailSort cSort = new CocktailSort();
                cSort.getCocktailBubbleRight();
+               break;
+           case 3:
+               Selection s = new Selection();
+               s.test();
                break;
            default:
                System.out.println("Default");

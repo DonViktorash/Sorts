@@ -18,7 +18,7 @@ class CocktailSort extends CreateArrayForSorting{
         super();
         super.createRandomArray();
         //super.createArrayManually();// - if you want
-        this.arr = super.array;
+        this.arr = super.returnArray();
         begin = 0;
         end = (length-1);
         checker = 1;
